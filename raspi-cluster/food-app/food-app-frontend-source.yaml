@@ -9,4 +9,6 @@ spec:
   ref:
     branch: main
   url: https://github.com/Sijoma/food-app
+  secretRef:
+    name: github-pat
 
