@@ -8,6 +8,6 @@ spec:
   imageRepositoryRef:
     name: food-app-frontend
   policy:
-    semver:
-      range: 0.x.x
+    alphabetical:
+      order: asc
 
