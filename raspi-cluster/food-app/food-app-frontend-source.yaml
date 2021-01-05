@@ -7,6 +7,6 @@ metadata:
 spec:
   interval: 30s
   ref:
-    branch: feat/docker-and-dotenv
+    branch: main
   url: https://github.com/Sijoma/food-app
 
