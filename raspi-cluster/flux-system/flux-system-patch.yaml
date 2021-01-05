@@ -19,3 +19,25 @@ spec:
     metadata:
       labels:
         prometheus: "true"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: notification-controller
+  namespace: flux-system
+spec:
+  template:
+    metadata:
+      labels:
+        prometheus: "true"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: helm-controller
+  namespace: flux-system
+spec:
+  template:
+    metadata:
+      labels:
+        prometheus: "true"
