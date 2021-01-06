@@ -41,3 +41,26 @@ spec:
     metadata:
       labels:
         prometheus: "true"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: image-reflector-controller
+  namespace: flux-system
+spec:
+  template:
+    metadata:
+      labels:
+        prometheus: "true"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: image-automation-controller
+  namespace: flux-system
+spec:
+  template:
+    metadata:
+      labels:
+        prometheus: "true"
+        
