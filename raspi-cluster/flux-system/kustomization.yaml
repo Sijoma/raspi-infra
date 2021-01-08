@@ -3,5 +3,7 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
+- notifications/slack-alert-provider.yaml
+- notifications/slack-alert.yaml
 patchesStrategicMerge:
 - flux-system-patch.yaml
