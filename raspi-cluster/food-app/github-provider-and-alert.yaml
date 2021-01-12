@@ -20,7 +20,7 @@ metadata:
 spec:
   providerRef:
     name: food-app-provider
-  eventSeverity: info
+  eventSeverity: error
   eventSources:
     - kind: Kustomization
       name: frontend-food-app
